@@ -14,11 +14,10 @@
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  /* font-size: inherit; */
+  font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-left: 150px;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
@@ -30,16 +29,13 @@
   font-size: 2em;
 }
 .fa-3x {
-  font-size: 64px;
-  margin-left: 150px;
+  font-size: 3em;
 }
 .fa-4x {
   font-size: 4em;
-  margin-left: 150px;
 }
 .fa-5x {
   font-size: 5em;
-  margin-left: 150px;
 }
 .fa-fw {
   width: 1.28571429em;

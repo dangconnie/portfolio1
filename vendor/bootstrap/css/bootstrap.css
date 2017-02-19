@@ -114,8 +114,8 @@ optgroup,
 select,
 textarea {
   margin: 0;
-  /* font: inherit; */
-  /* color: inherit; */
+  font: inherit;
+  color: inherit;
 }
 button {
   overflow: visible;
@@ -1373,7 +1373,7 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #40F059;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -4959,12 +4959,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  /* color: inherit; */
+  color: inherit;
   background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  /* color: inherit; */
+  color: inherit;
 }
 .jumbotron p {
   margin-bottom: 15px;
