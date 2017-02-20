@@ -1650,6 +1650,8 @@ pre code {
 }
 .col-xs-3 {
   width: 25%;
+  max-height: 92px;
+  margin-top: 25px
 }
 .col-xs-2 {
   width: 16.66666667%;
