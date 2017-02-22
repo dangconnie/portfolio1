@@ -18,17 +18,17 @@ body {
     font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
     webkit-tap-highlight-color: #222;
 }
-.btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
+.btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h2, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    color: #00ff7f;
+    color: #3b220e;
 }
 hr {
-    border-color: #00ff7f;
+    border-color: #3b220e;
     border-width: 3px;
     max-width: 50px;
 }
 hr.light {
-    border-color: #00ff7f;
+    border-color: #3b220e;
 }
 a {
     transition: all .35s;
@@ -50,7 +50,7 @@ p {
     color: #fff;
 }
 .text-faded {
-    color: mediumspringgreen;
+    color: white;
 }
 section {
     padding: 100px 0;
@@ -226,7 +226,7 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, .9);
+    background: rgba(59, 34, 14, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -276,7 +276,11 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
 }
-}.call-to-action h2 {
+.project-name h4{
+    color: white;
+} 
+
+.call-to-action h2 {
     margin: 0 auto 20px;
 }
 .text-primary {
