@@ -240,10 +240,10 @@ header .header-content .header-content-inner p {
 }
 .express-yunw{
     vertical-align: bottom;
-    margin-top: 53px;
+    margin-top: 25px;
 }
 .express-label{
-    margin-top: 26px;
+    margin-top: 35px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     width: 100%;
@@ -358,4 +358,16 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.skillsLogo{
+    max-height: 80px;
+    max-width: 130px;
+    width: ;
+}
+.skillsLogoAjax{
+    margin-top: 40px;
+}
+.skillsLogoReact{
+
 }
