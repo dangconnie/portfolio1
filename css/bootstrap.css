@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -12,21 +14,25 @@ html {
 body {
   margin: 0;
 }
-/* article, */
-/* aside, */
-/* details, */
-/* figcaption, */
-/* figure, */
-/* footer, */
-/* header, */
-/* hgroup, */
-/* main, */
-/* menu, */
-/* nav, */
-/* section, */
-/* summary { */
-  /* display: block; */
-/* } */
+
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
 a {
   background-color: transparent;
 }
@@ -60,7 +66,10 @@ input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-/* input {
+
+
+
+input {
   line-height: normal;
 }
 
@@ -68,14 +77,16 @@ fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
   border: 1px solid #c0c0c0;
-} */
-/* legend {
+}
+legend {
   padding: 0;
   border: 0;
 }
 textarea {
   overflow: auto;
-} */
+}
+
+
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -196,7 +207,7 @@ body {
   color: #333;
   background-color: #fff;
 }
-/* input,
+input,
 button,
 select,
 textarea {
@@ -204,7 +215,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
- */a {
+ *a {
   color: #337ab7;
   text-decoration: none;
 }
@@ -264,8 +275,8 @@ hr {
   padding: 0;
   margin: -1px;
   overflow: scroll;
-  /* clip: rect(0, 0, 0, 0); */
-  /* border: 0; */
+  clip: rect(0, 0, 0, 0);
+  border: 0;
   border-radius: 20px;
   font-size: 2em;
 }
@@ -410,7 +421,7 @@ p {
     font-size: 21px;
   }
 }
-/* small,
+small,
 .small {
   font-size: 85%;
 }
@@ -418,7 +429,7 @@ mark,
 .mark {
   padding: .2em;
   background-color: #fcf8e3;
-} */
+}
 .text-left {
   text-align: left;
 }
@@ -537,20 +548,21 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .dl-horizontal dt {
-    float: left;
-    width: 160px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+      float: left;
+      width: 160px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap
   }
   .dl-horizontal dd {
-    margin-left: 180px;
+      margin-left: 180px
   }
 }
+
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
@@ -611,21 +623,24 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .container {
-    width: 750px;
+      width: 750px
   }
 }
-@media (min-width: 992px) {
+
+@media (min-width:992px) {
   .container {
-    width: 970px;
+      width: 970px
   }
 }
-@media (min-width: 1200px) {
+
+@media (min-width:1200px) {
   .container {
-    width: 1170px;
+      width: 1170px
   }
 }
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -674,8 +689,8 @@ pre code {
 }
 .col-xs-3 {
   width: 25%;
-  max-height: 92px;
-  margin-top: 25px
+  /* max-height: 100%;
+  /* margin-top: 25px; */
 }
 .col-xs-2 {
   width: 16.66666667%;
@@ -1115,7 +1130,7 @@ pre code {
   .col-md-offset-0 {
     margin-left: 0;
   }
-}
+} 
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -1295,7 +1310,7 @@ pre code {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 20px;
-}
+} 
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3613,3 +3628,4 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+

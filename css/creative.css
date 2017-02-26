@@ -242,10 +242,22 @@ header .header-content .header-content-inner p {
 }
 .express-yunw{
     vertical-align: bottom;
-    margin-top: 45px;
+    margin-top: -76px;
 }
 .express-label{
     margin-top: 35px;
+}
+.jasmine{
+    margin-top: -99px;
+}
+.aws{
+    margin-top: -99px;
+}
+.mongo{
+
+}
+.mongo-icon{
+
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     width: 100%;
@@ -320,13 +332,14 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     /* transition: all .35s; */
+    box-shadow: 10px 10px 17px black;
   
 }
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
     color: black;
     background-color: white;
     border-color: #ed431f;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,1), 0 17px 50px 0 rgba(0,0,0,0.19)
+    /* box-shadow: 10px 10px 17px black; */
 }
 
 .btn-primary .badge {
